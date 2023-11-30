@@ -95,7 +95,7 @@ Al hacerlo obtenemos un JSON, que contiene el nombre de usuario, fecha de creaci
 
 Ahora iniciamos sesión en la consola a través de IAM, para esto requerimos el ID, usuario y contraseña. 
 
-![Inicio sesión IAM](inicio_IAM.jpeg)
+![Inicio sesión IAM](/images/inicio_IAM.jpeg)
 
 De regreso en la terminal, [buscamos la política que otorgue acceso completo](https://docs.aws.amazon.com/cli/latest/reference/iam/list-policies.html) al usuario __awsS3user__
 
@@ -172,7 +172,7 @@ Hasta este punto casi hemos finalizado, ahora es necesario regresar a la __conso
 aws s3 website
 ```
 Clickeamos en el link para observar nuestro sitio: 
-![Sitio web estático](sitios_estaticos.jpeg)
+![Sitio web estático](/images/sitios_estaticos.jpeg)
 
 Y podemos ver nuestro sitio web estático.
 ![Cafe](/images/pagina.jpeg)
